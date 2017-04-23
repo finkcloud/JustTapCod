@@ -21,11 +21,8 @@ public class MTNFragment extends Fragment {
         View rootview = inflater.inflate(R.layout.bank_list, container, false);
 
         final ArrayList<TelcServicesCode> telcosservice = new ArrayList<>();
-        telcosservice.add(new TelcServicesCode("Data","*556#","N100",4.4f));
-        telcosservice.add(new TelcServicesCode("Data","*556#","N100",4.4f));
-        telcosservice.add(new TelcServicesCode("Data","*556#","N100",4.4f));
-        telcosservice.add(new TelcServicesCode("Data","*556#","N100",4.4f));
-        telcosservice.add(new TelcServicesCode("Data","*556#","N100",4.4f));
+        //remove some dummy model data
+        
 
 
 
